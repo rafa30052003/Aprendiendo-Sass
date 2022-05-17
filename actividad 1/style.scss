@@ -1,0 +1,21 @@
+$background-color: #211940;
+$font-general-color: #D9B3CA;
+$title-color: #9B87BC;
+
+body{
+    $anchoContainer: 75%;
+    background-color: $background-color;
+    width: 100%;
+    margin: 0;
+
+    .container{ 
+        width: $anchoContainer;
+       
+        color: $font-general-color;
+        h1{
+            color: $title-color;
+            text-align: center;
+        }
+    }
+
+}
